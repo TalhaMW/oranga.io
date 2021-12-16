@@ -1,0 +1,476 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: white;
+}
+
+header {
+  height: 92vh;
+  background: linear-gradient(355.5deg, #e2e1e1 15%, transparent 15%), url("/img/orange-6518675_1920.jpg") no-repeat center center/cover;
+}
+
+nav {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.9) 30%, rgba(255, 68, 0, 0.7) 30%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+nav h1 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  color: orangered;
+}
+
+nav .social-icon {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20rem;
+}
+
+.txt-area {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: -30px;
+}
+
+.txt-area .txt-container {
+  background: rgba(255, 68, 0, 0.7);
+  width: 35rem;
+  padding: 1rem;
+}
+
+.txt-area .txt-container h1 {
+  font-size: 3rem;
+  padding: 1rem 0;
+  color: white;
+  font-weight: 500;
+}
+
+.txt-area .txt-container p {
+  line-height: 1.5rem;
+  color: white;
+}
+
+main .qualities-section {
+  background-color: #e2e1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .qualities-section .qualities-boxes {
+  width: 65vw;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .qualities-section .qualities-boxes .quality-box {
+  margin: 1rem;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+  bottom: 30px;
+  color: grey;
+  width: 17rem;
+}
+
+main .qualities-section .qualities-boxes .quality-box i {
+  font-size: 2.5rem;
+  color: orangered;
+}
+
+main .qualities-section .qualities-boxes .quality-box h2 {
+  padding: 1rem 0;
+}
+
+main .qualities-section .qualities-boxes .quality-box p {
+  line-height: 1.5rem;
+}
+
+main .qualities-section .qualities-boxes .quality-box:nth-child(2) {
+  position: relative;
+  bottom: 60px;
+  background-color: orangered;
+  color: white;
+}
+
+main .qualities-section .qualities-boxes .quality-box:nth-child(2) i {
+  color: white;
+}
+
+main .new-things-section {
+  background: linear-gradient(-5deg, white 20%, #e2e1e1 20%);
+  height: 80vh;
+  padding: 1rem;
+}
+
+main .new-things-section .new-things-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5rem;
+}
+
+main .new-things-section .new-things-container .new-things {
+  padding: 0.3rem 0;
+  width: 23rem;
+  text-align: center;
+}
+
+main .new-things-section .new-things-container .new-things i {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: orangered;
+}
+
+main .new-things-section .new-things-container .new-things h2 {
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+  color: grey;
+}
+
+main .new-things-section .new-things-container .new-things p {
+  line-height: 1.5rem;
+  padding: 0.3rem 0;
+}
+
+main .new-things-section .new-things-container .new-things h3 {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+main .new-things-section .new-things-container .new-things-img-container {
+  height: 21rem;
+  width: 15rem;
+  background: url("/img/oranges-1995056_1920.jpg") no-repeat center center/cover;
+  border-radius: 5px;
+}
+
+main .about-company-section {
+  height: 80vh;
+  padding: 1rem;
+}
+
+main .about-company-section .about-company-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5rem;
+}
+
+main .about-company-section .about-company-container .about-img-container {
+  height: 25rem;
+  width: 17rem;
+  background: url("/img/pexels-pixabay-267507.jpg") no-repeat center center/cover;
+  border-radius: 5px;
+}
+
+main .about-company-section .about-company-container .about-company {
+  padding: 2rem;
+  width: 27rem;
+}
+
+main .about-company-section .about-company-container .about-company h2 {
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+  color: grey;
+}
+
+main .about-company-section .about-company-container .about-company p {
+  line-height: 1.5rem;
+  padding: 0.3rem 0;
+}
+
+main .about-company-section .about-company-container .about-company .features {
+  list-style: circle;
+}
+
+main .about-company-section .about-company-container .about-company .features li {
+  padding: 0.5rem 0;
+}
+
+main .heroes-section {
+  padding-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .heroes-section .heroes-container .heroes-txt {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+main .heroes-section .heroes-container .heroes-txt h2 {
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+  color: grey;
+}
+
+main .heroes-section .heroes-container .heroes-txt p {
+  line-height: 1.5rem;
+  padding: 0.3rem 0;
+}
+
+main .heroes-section .heroes-container .members {
+  padding-top: 5rem;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+}
+
+main .heroes-section .heroes-container .members img {
+  width: 80px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+main .build-something-section {
+  background: linear-gradient(177deg, white 15%, #ff4400 15%);
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .build-something-section .build-section-container {
+  color: white;
+}
+
+main .build-something-section .build-section-container .build-txt {
+  text-align: center;
+}
+
+main .build-something-section .build-section-container .build-txt h2 {
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+  color: white;
+}
+
+main .build-something-section .build-section-container .build-txt p {
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  width: 45rem;
+  color: white;
+}
+
+main .build-something-section .build-section-container .build-recommendation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45rem;
+  padding: 4rem 0 0;
+}
+
+main .build-something-section .build-section-container .build-recommendation .build-recom-container {
+  padding: 1rem;
+}
+
+main .form {
+  background-color: blueviolet;
+  height: 43vw;
+  padding: 3rem;
+  background: linear-gradient(-4deg, #e2e1e1 15%, #ff4400 15%);
+}
+
+main .form .form-container {
+  background-color: #e1e1e1;
+  width: 17vw;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+main .form .form-container h1 {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  color: orangered;
+}
+
+main .form .form-container label {
+  font-size: 1.5rem;
+}
+
+main .form .form-container input {
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 0.2rem 0;
+  outline: none;
+  border: 2px solid #e2e2e2;
+}
+
+main .form .form-container input[type="submit"] {
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 0;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+main .form .form-container input[type="submit"]:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+footer {
+  background-color: #e2e1e1;
+  padding: 2rem;
+}
+
+footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .footer-container .in-touch h2 {
+  font-size: 2rem;
+  padding: 0.2rem 0;
+}
+
+footer .footer-container .in-touch p {
+  padding-bottom: 1rem;
+}
+
+footer .footer-container .in-touch .our-social-accounts i {
+  font-size: 1.7rem;
+  padding: 1.7rem 1rem;
+}
+
+footer .footer-container .links-resources {
+  width: 33vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .footer-container .links-resources .links h2 {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+}
+
+footer .footer-container .links-resources .links h3 {
+  padding: 0.5rem 0;
+}
+
+footer .footer-container .links-resources .resources h2 {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+}
+
+footer .footer-container .links-resources .resources h3 {
+  padding: 0.5rem 0;
+}
+
+footer p {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
